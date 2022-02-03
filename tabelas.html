@@ -25,14 +25,14 @@
 
 
     <h1>
-        Praticando
+        Praticando Tabelas
     </h1>
 
     <p>
         =====================================================
     </p>
 
-    <h3>Exemplos de tabela</h3>
+    <h3>Exemplos de tabelas</h3>
 
 <p>Abaixo estão alguns exemplos de tabela para praticar:
 
@@ -103,30 +103,30 @@
     <thead>
         <tr>
             <th rowspan="2"></th>
-            <th colspan="2">Loja 01</th>
-            <th colspan="2">Loja 02</th>
+            <th colspan="2" scope="colgroup">Loja 01</th>
+            <th colspan="2" scope="colgroup">Loja 02</th>
         </tr>
 
         <tr>
             
-            <th>Produzidos</th>
-            <th>Vendidos</th>
-            <th>Produzidos</th>
-            <th>Vendidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
         </tr>
     
     </thead>
 
     <tbody>
         <tr>
-            <th>Vassoura</th>
+            <th scope="row">Vassoura</th>
             <td>50</td>
             <td>40</td>
             <td>55</td>
             <td>49</td>
         </tr>
         <tr>
-            <th>Tapete</th>
+            <th scope="row">Tapete</th>
             <td>30</td>
             <td>28</td>
             <td>52</td>
@@ -134,7 +134,7 @@
         </tr>
 
         <tr>
-            <th>Toalha</th>
+            <th scope="row">Toalha</th>
             <td>35</td>
             <td>30</td>
             <td>54</td>
