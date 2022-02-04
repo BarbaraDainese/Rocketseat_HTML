@@ -1,0 +1,33 @@
+h1{
+    color:rgb(223, 110, 180);
+    font-size: 60px;
+    background: rgb(78, 55, 55);
+    margin: 50px;
+    padding: 50px;
+
+}
+
+p{
+    margin: 50px;
+    color:rgb(78, 55, 55);
+}
+
+/*
+
+ENTENDENDO O SHORTHAND:
+--------------------------
+
+Backgroud properties:
+
+background-color: #000;
+background-image: url(images.jpeg);
+background-repeat: no-repeat;
+background-position: left top;
+
+-----------------------------
+
+Background Shorthand:
+
+background: #000 url(images.jpg) no-repeat left top;
+
+*/
