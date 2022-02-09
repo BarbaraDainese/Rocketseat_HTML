@@ -1,16 +1,61 @@
+*{margin:0;}
+
+header{
+    
+    height: 200px;
+    padding: 16px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/LaurynHill_cropped.jpg/174px-LaurynHill_cropped.jpg);
+   
+}
+
 h1{
     color:rgb(223, 110, 180);
     font-size: 60px;
     background: rgb(78, 55, 55);
-    margin: 50px;
-    padding: 50px;
+   
+    padding: 20px 15%;
+   
 
 }
 
-p{
-    margin: 50px;
-    color:rgb(78, 55, 55);
+.box{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
 }
+
+.box1{
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+.box2{
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+.box3{
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 280px;
+}
+
+main{
+    color:rgb(211, 253, 248);
+    padding: 20px 30%;
+    background-image: url(https://www.vilage.com.br/blog/wp-content/uploads/2021/04/como-registrar-uma-musica.png);
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    
+    
+
+}
+
 
 /*
 
