@@ -1,0 +1,35 @@
+h1{
+    padding-top: 30px;
+}
+
+#p1{
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+#p2{
+    font-family: serif;
+    font-size:large;
+    
+}
+
+#p3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+
+}
+
+#p4{
+    font-family:'Syne Tactile';
+    font-size: larger;
+    font-weight:lighter;
+    color: orange;
+
+}
+
+h2{
+   
+    padding-top: 30px;
+   
+}
