@@ -113,6 +113,40 @@ div.parent{
 * justify-content
 * aligin-items
 
+# Trabalhando com fontes
+
+Tipografia transmite mensagem
+
+    - Negrito
+    - Tamanho
+    - Estilo
+
+--------------------------------------
+
+## Basic Font Properties
+
+* Font-family
+* font-weight
+* font-style
+* Font-size
+
+--------------------------------------
+
+## Font-family
+
+* Tipo de fonte de um elemento
+* Lista de fonte e ordem de prioridade
+*Inclui *fallback* font
+
+```CSS
+p{
+    font-family: "Times New Roman", Times, serif;
+
+}
+```
+
+
+
 
 
 
