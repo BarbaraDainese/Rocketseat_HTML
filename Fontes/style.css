@@ -11,12 +11,13 @@ h1{
 #p2{
     font-family: serif;
     font-size:large;
-    
+    text-align: center;
 }
 
 #p3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style:italic;
+    text-decoration:overline;
 
 }
 
@@ -25,6 +26,8 @@ h1{
     font-size: larger;
     font-weight:lighter;
     color: orange;
+    letter-spacing: 3px;
+    line-height: 30px;
 
 }
 
