@@ -5,3 +5,13 @@ h1{
 h2{
     font-family: 'Rubik', sans-serif;
 }
+
+p{
+    height: 30px;
+    
+}
+
+#tipo2{
+    height: auto;
+    color:aqua;
+}

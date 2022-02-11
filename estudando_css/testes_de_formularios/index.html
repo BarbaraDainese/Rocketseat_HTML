@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Supermercado+One&family=Syne+Tactile&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Formulários:</h1>
 
@@ -19,9 +20,14 @@
         - action
         - method
     -->
+    <p></p>
     <h2>Exemplos:</h2>
 
-   
+   <p></p>
+
+   <p id="tipo2">
+    Com legenda e botão habilitado:
+</p>
 
     <fieldset form="contato">
         <legend>Contato</legend>
@@ -35,17 +41,143 @@
 
     </form>
 
-<p></p>
-
-    <label for="nome">Nome Completo</label>
-    <input id="nome" type="text">
     
-<p></p>
 
-<form>
-    <input type="text" value="">
-    <button tipe="reset">Limpar</button>
-</form>
+    <p></p>
+
+    <p id="tipo2">
+        Com título:
+    </p>
+
+        <label for="nome">Nome Completo</label>
+        <input id="nome" type="text">
+        
+    <p></p>
+
+    <p id="tipo2">
+        Botão desabilitado:
+    </p>
+
+
+    <form>
+        <input type="text" value="">
+        <button disabled tipe="reset">Limpar</button>
+    </form>
+
+
+
+    <p></p>
+
+    <p id="tipo2">
+        Opção pré selecionada:
+    </p>
+
+    <input type="text" list="fruitsdata" placeholder="Escolha uma fruta"/>
+
+    <datalist id="fruitsdata">
+        <option>Aplle</option>
+        <option>Banana</option>
+        <option>Mango</option>
+        <option>Orange</option>
+        <option>Cherry<option>
+    </datalist>
+
+    <p></p>
+
+    <p id="tipo2">
+        Cores:
+    </p>
+
+    <datalist id="colorsdata">
+        <option>#ff0000</option>
+        <option>#00ff00</option>
+        <option>#0000ff</option>
+    </datalist>
+
+    <input type="color" list="colorsdata"/>
+
+    <!--
+        <input>
+        - Um dos mais usados em formulários
+        - Aceita os mais diversos tipos de dados
+        - Um dos mais poderosos e conplexos
+        - Elevado número de combinações
+
+        Atributos
+        - type
+        - name
+        - id
+    -->
+    <p></p>
+
+    <p id="tipo2">
+        Calendário:
+    </p>
+
+    <input type="date">
+
+    <p></p>
+
+    <p id="tipo2">
+        Somente número:
+    </p>
+
+    <input type="number" autofocus>
+
+    <p></p>
+
+    <p id="tipo2">
+        Somente email::
+    </p>
+    <label for="email">E-mail:</label>
+    <input id="email" type="email" autocomplete="email" placeholder="digite seu email">
+
+    <p></p>
+
+    <p id="tipo2">
+        Seleciona arquivos:
+    </p>
+    <label for="arquivo">Selecionar arquivo:</label>
+    <input id="arquivo" type="file">
+
+    <p></p>
+
+    <p id="tipo2">
+        Tipo senha:
+    </p>
+    <label for="senha">Senha:</label>
+    <input id="senha" type="password" placeholder="digite sua senha">
+
+    <p></p>
+
+    <!--
+        <input> Atributos comuns:
+        -autocomplete
+        - autofocus
+        - disabled
+        - readonly (quase todos)
+        - value 
+        - form (quase todos)
+        - name
+        - required (quase todos)
+        - placeholder (quase todos)
+    -->
+
+
+    <p></p>
+    <p></p>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
